@@ -10,7 +10,7 @@ int main(){
 	int a=0;
 	while(1){
 		top=-1;
-		fgets(arr,100,stdin);
+		fgets(arr,102,stdin);
 //		getchar();
 //		fputs(arr,stdout);
 		if(strcmp(arr,".\n")==0){

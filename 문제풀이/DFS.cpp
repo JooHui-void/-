@@ -10,8 +10,9 @@ int sort(const void *a,const void *b){
 	return 0;
 }
 
-int arr[25][25];
+int arr[26][26]={0};
 int cc;
+
 void dfs(int a,int b){
 	arr[a][b]=0;
 	cc++;
@@ -30,7 +31,7 @@ int main(){
 
 	int num;
 	int count=0;
-	int dangi[1000];
+	int dangi[1000]={};
 	scanf("%d",&num);
 	for(int i=0;i<num;i++){
 		for(int j=0;j<num;j++){
